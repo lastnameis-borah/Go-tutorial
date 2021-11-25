@@ -18,6 +18,7 @@ func main() {
 	// Output: position 1 to position 3
 	fmt.Println(fruits)
 
+	// Create slice using make()
 	score := make([]int, 5)
 	score[0] = 88
 	score[1] = 71
