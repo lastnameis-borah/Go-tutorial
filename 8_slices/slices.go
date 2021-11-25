@@ -33,4 +33,6 @@ func main() {
 	fmt.Println(sort.IntsAreSorted(score))
 	// Output: true, as the slice is sorted
 
+	var courses = []string{"python", "javascript", "go", "cpp", "rust"}
+	fmt.Println(courses)
 }
