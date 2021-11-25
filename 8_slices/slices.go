@@ -33,6 +33,10 @@ func main() {
 	fmt.Println(sort.IntsAreSorted(score))
 	// Output: true, as the slice is sorted
 
+	/* Remove */
 	var courses = []string{"python", "javascript", "go", "cpp", "rust"}
 	fmt.Println(courses)
+	courses = append(courses[:2], courses[3:]...)
+	fmt.Println(courses)
+	// Output: Removes index 2
 }
